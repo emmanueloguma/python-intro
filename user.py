@@ -1,0 +1,7 @@
+print("enter your first name")
+firstname=input()
+print("enter your surname")
+surname=input()
+print("enter your email")
+email=input()
+print("these are my details " , firstname , surname , email)
