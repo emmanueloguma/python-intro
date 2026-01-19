@@ -1,0 +1,20 @@
+pawpaw_qty=200
+pawpaw_price=50
+ginger_qty=500
+ginger_price=5
+groundnut_qty=50
+groundnut_price=10
+stationeries_qty=450
+stationeries_price=10
+bread_qty=10
+bread_price=50
+pawpaw_cost=pawpaw_qty*pawpaw_price
+ginger_cost=ginger_qty*ginger_price
+ground_cost=groundnut_qty*groundnut_price
+stationeries_cost=stationeries_qty*stationeries_price
+bread_cost=bread_qty*bread_price
+total_spent=(pawpaw_cost+ginger_cost+ground_cost+stationeries_cost+bread_cost)
+total_money=10000
+allowed_spending=total_money*75/100
+balance_left=allowed_spending-total_spent
+print("balance left from 75%",balance_left)
